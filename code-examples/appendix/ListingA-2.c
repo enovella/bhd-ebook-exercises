@@ -5,11 +5,11 @@ typedef struct pkt {
 } pkt_t;
 
 int
-main (void) 
+main (void)
 {
 	pkt_t *	packet	= NULL;
-	
+
 	printf ("%s", packet->value);
-	
+
 	return 0;
 }
