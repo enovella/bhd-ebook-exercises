@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#define MEMLOC			0x10203040    
-#define SEARCH_START	0x80000000
-#define SEARCH_END		0xffffffff
+#define MEMLOC          0x10203040
+#define SEARCH_START    0x80000000
+#define SEARCH_END      0xffffffff
 
 int
 main (void)
